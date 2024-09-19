@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #343a40;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+#skills .col-md-4, #education .col-md-6 {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+footer {
+  background: #343a40;
+  color: #ffffff;
+  padding: 15px;
+}
+ #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #000;
+  }

@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #343a40;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+#skills .col-md-4, #education .col-md-6 {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+footer {
+  background: #343a40;
+  color: #ffffff;
+  padding: 15px;
+}
